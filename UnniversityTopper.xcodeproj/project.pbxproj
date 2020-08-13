@@ -13,6 +13,11 @@
 		5F99DF8C24E5D6E000CABA1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F99DF8A24E5D6E000CABA1D /* Main.storyboard */; };
 		5F99DF8E24E5D6E300CABA1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F99DF8D24E5D6E300CABA1D /* Assets.xcassets */; };
 		5F99DF9124E5D6E300CABA1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F99DF8F24E5D6E300CABA1D /* LaunchScreen.storyboard */; };
+		5F99DF9A24E5D70E00CABA1D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F99DF9924E5D70E00CABA1D /* Person.swift */; };
+		5F99DF9C24E5D71C00CABA1D /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F99DF9B24E5D71C00CABA1D /* Student.swift */; };
+		5F99DF9E24E5D72C00CABA1D /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F99DF9D24E5D72C00CABA1D /* Division.swift */; };
+		5F99DFA024E5D73700CABA1D /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F99DF9F24E5D73700CABA1D /* School.swift */; };
+		5F99DFA224E5D74100CABA1D /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F99DFA124E5D74100CABA1D /* University.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		5F99DF8D24E5D6E300CABA1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F99DF9024E5D6E300CABA1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F99DF9224E5D6E300CABA1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F99DF9924E5D70E00CABA1D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5F99DF9B24E5D71C00CABA1D /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		5F99DF9D24E5D72C00CABA1D /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
+		5F99DF9F24E5D73700CABA1D /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		5F99DFA124E5D74100CABA1D /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		5F99DF8324E5D6E000CABA1D /* UnniversityTopper */ = {
 			isa = PBXGroup;
 			children = (
+				5F99DF9824E5D6F100CABA1D /* Model */,
 				5F99DF8424E5D6E000CABA1D /* AppDelegate.swift */,
 				5F99DF8624E5D6E000CABA1D /* SceneDelegate.swift */,
 				5F99DF8824E5D6E000CABA1D /* ViewController.swift */,
@@ -65,6 +76,18 @@
 				5F99DF9224E5D6E300CABA1D /* Info.plist */,
 			);
 			path = UnniversityTopper;
+			sourceTree = "<group>";
+		};
+		5F99DF9824E5D6F100CABA1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F99DF9924E5D70E00CABA1D /* Person.swift */,
+				5F99DF9B24E5D71C00CABA1D /* Student.swift */,
+				5F99DF9D24E5D72C00CABA1D /* Division.swift */,
+				5F99DF9F24E5D73700CABA1D /* School.swift */,
+				5F99DFA124E5D74100CABA1D /* University.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F99DFA024E5D73700CABA1D /* School.swift in Sources */,
 				5F99DF8924E5D6E000CABA1D /* ViewController.swift in Sources */,
 				5F99DF8524E5D6E000CABA1D /* AppDelegate.swift in Sources */,
+				5F99DF9E24E5D72C00CABA1D /* Division.swift in Sources */,
+				5F99DFA224E5D74100CABA1D /* University.swift in Sources */,
+				5F99DF9A24E5D70E00CABA1D /* Person.swift in Sources */,
+				5F99DF9C24E5D71C00CABA1D /* Student.swift in Sources */,
 				5F99DF8724E5D6E000CABA1D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

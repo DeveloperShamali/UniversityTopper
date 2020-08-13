@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let unni = Univesity(name: "Shivaji")
+        let universityTopper = unni.getTopper()
+        print("\(universityTopper!.name!) is the University topper and percentage is \(universityTopper!.percentage)")
+        
+
     }
 
 
