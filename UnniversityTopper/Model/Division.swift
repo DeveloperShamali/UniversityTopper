@@ -10,5 +10,5 @@ import Foundation
 
 class Division {
     var name:String?
-    var students = [Student]()
+    var students = [String:Student]()
 }

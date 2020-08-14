@@ -18,4 +18,9 @@ class Student: Person {
         self.rollNumber = rollNumber
         self.percentage = percentage
     }
+    
+    func learn(sub:String)  {
+        print("\(self.name) is leaning \(sub)")
+    }
+    
 }

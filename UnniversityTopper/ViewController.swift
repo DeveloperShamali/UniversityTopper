@@ -14,10 +14,22 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         let unni = Univesity(name: "Shivaji")
-        let universityTopper = unni.getTopper()
-        print("\(universityTopper!.name!) is the University topper and percentage is \(universityTopper!.percentage)")
+        // Never forget this
+        let x = unni.schools
+        print(x)
+        let d = unni.schools[0].divisions
+        let l = d[0].students["pu"]
+        print(l)
         
-
+        let universityTopper = unni.getTopper()
+        print("\(universityTopper!.name!) is the University topper and percentage is \(universityTopper!.percentage!)")
+        
+        
+        
+        let y = unni.getDivision().students
+//        print(y[0].name!)
+        
+        let dictionOfDivision = [""]
     }
 
 
